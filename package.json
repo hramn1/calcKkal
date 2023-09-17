@@ -1,0 +1,22 @@
+{
+  "name": "Calc",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Calc",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server --open",
+    "eslint": "eslint src/**/*.js",
+    "test": "npm run eslint"
+  },
+  "devDependencies": {
+    "css-loader": "3.5.3",
+    "style-loader": "1.2.1",
+    "webpack": "4.43.0",
+    "webpack-cli": "3.3.11",
+    "webpack-dev-server": "3.10.3"
+  },
+  "engines": {
+    "node": "16"
+  }
+}
